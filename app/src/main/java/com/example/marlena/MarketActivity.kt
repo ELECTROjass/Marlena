@@ -25,5 +25,20 @@ class MarketActivity : AppCompatActivity() {
             val intent: Intent = Intent(this, CrearActivity::class.java)
             startActivity(intent)
         }
+        val notifi: Button = findViewById(R.id.button8)
+        notifi.setOnClickListener {
+            val intent: Intent = Intent(this, NotifiActivity::class.java)
+            startActivity(intent)
+        }
+        val ajustes: Button = findViewById(R.id.button14)
+        ajustes.setOnClickListener {
+            val intent: Intent = Intent(this, AjustesActivity::class.java)
+            startActivity(intent)
+        }
+        val perfil: Button = findViewById(R.id.button2)
+        perfil.setOnClickListener {
+            val intent: Intent = Intent(this, PerfilActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

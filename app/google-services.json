@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "47953127106",
+    "project_id": "plantopia-927ef",
+    "storage_bucket": "plantopia-927ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47953127106:android:3b39b22f1648bada537d5b",
+        "android_client_info": {
+          "package_name": "com.example.marlena"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn0Yk0qxxtXuXWOao8WVO0e1cNVtSsWK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
