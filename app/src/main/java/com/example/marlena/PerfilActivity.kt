@@ -32,10 +32,12 @@ class PerfilActivity : AppCompatActivity() {
         textViewEdad = findViewById(R.id.textViewEdad)
         textViewSexo = findViewById(R.id.textViewSexo)
 
-        val userId = "9BrA1AtQv2kUIwIKRZfj"
+        val userIdTay = "9BrA1AtQv2kUIwIKRZfj"
+        //val userIdJei = "MSw4a1aSjqNHd81tp8XM"
+        //val userIdJan = "b4zaFHxyE2ibgF8eu4Y2"
 
         db.collection("usuario")
-            .document(userId)
+            .document(userIdTay)
             .get()
             .addOnSuccessListener { document ->
                 if (document != null) {
