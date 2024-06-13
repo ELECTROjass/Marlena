@@ -62,7 +62,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <EditText
+    <!--<EditText
         android:id="@+id/editTextId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
         android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="DuplicateIds,MissingConstraints" />
+        tools:ignore="DuplicateIds,MissingConstraints" />-->
 
     <TextView
         android:id="@+id/textView"
@@ -89,7 +89,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <TextView
+    <!--<TextView
         android:id="@+id/textView01"
         android:layout_width="312dp"
         android:layout_height="28dp"
@@ -100,7 +100,7 @@
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
